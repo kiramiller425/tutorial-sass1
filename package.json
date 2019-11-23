@@ -1,0 +1,25 @@
+{
+  "name": "tutorial-sass1",
+  "version": "0.0.1",
+  "description": "My work as I follow along with the tutorial",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiramiller425/tutorial-sass1.git"
+  },
+  "author": "Kira Miller",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "load-grunt-tasks": "^5.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/kiramiller425/tutorial-sass1/issues"
+  },
+  "homepage": "https://github.com/kiramiller425/tutorial-sass1#readme"
+}

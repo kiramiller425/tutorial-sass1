@@ -1,0 +1,15 @@
+{
+  "name": "tutorial-sass1",
+  "description": "My work as I follow along with the tutorial",
+  "main": "index.html",
+  "authors": [
+    "Kira Miller"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kiramiller425/tutorial-sass1#readme",
+  "devDependencies": {
+    "bourbon": "^6.0.0",
+    "susy": "^3.0.5",
+    "normalize-css": "^8.0.1"
+  }
+}
