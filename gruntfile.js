@@ -1,9 +1,7 @@
-// The wrapper function:
+// The "wrapper" function
 module.exports = function(grunt) {
-
-	const sass = require('node-sass');
-
-	// Project and task configuration:
+  
+	// Project and task configuration
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 
@@ -14,7 +12,6 @@ module.exports = function(grunt) {
 		*/
 		sass: {
 			options: {
-				implementation: sass,
 				sourceMap: false
 			},
 			dist: {
@@ -34,16 +31,15 @@ module.exports = function(grunt) {
 				files: [
 					'assets/scss/*.scss'
 				],
-				tasks: [
+				tasks : [
 					'sass'
 				]
 			},
-			// Uglify JS whenever the source JS are modified:
-			scripts: {				
+			scripts: {
 				files: [
 					'assets/js/*.js'
 				],
-				tasks: [
+				tasks : [
 					'uglify'
 				]
 			}
@@ -54,11 +50,11 @@ module.exports = function(grunt) {
 		* Grunt Contrib Uglify
 		* Minify JavaScript files
 		* https://www.npmjs.com/package/grunt-contrib-uglify
-		*/
+		*/		
 		uglify: {
-			my_target: {
+			my_target:{
 				files: {
-					'js/scripts.js' : ['assets/js/scripts.js', 'node_modules/jquery/dist/jquery.js']
+					'js/scripts.js' : ['node_modules/jquery/dist/jquery.js', 'assets/js/scripts.js']
 				}
 			}
 		}
