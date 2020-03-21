@@ -37,6 +37,29 @@ module.exports = function(grunt) {
 				tasks: [
 					'sass'
 				]
+			},
+			// Uglify JS whenever the source JS are modified:
+			scripts: {				
+				files: [
+					'assets/js/*.js'
+				],
+				tasks: [
+					'uglify'
+				]
+			}
+		},
+
+
+		/**
+		* Grunt Contrib Uglify
+		* Minify JavaScript files
+		* https://www.npmjs.com/package/grunt-contrib-uglify
+		*/
+		uglify: {
+			my_target: {
+				files: {
+					'js/scripts.js' : ['assets/js/scripts.js', 'node_modules/jquery/dist/jquery.js']
+				}
 			}
 		}
 

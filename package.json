@@ -14,13 +14,17 @@
   "license": "ISC",
   "devDependencies": {
     "grunt": "~1.0.1",
+    "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^3.1.0",
-    "node-sass": "^4.13.0",
-    "load-grunt-tasks": "^5.1.0"
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^4.13.0"
   },
   "bugs": {
     "url": "https://github.com/kiramiller425/tutorial-sass1/issues"
   },
-  "homepage": "https://github.com/kiramiller425/tutorial-sass1#readme"
+  "homepage": "https://github.com/kiramiller425/tutorial-sass1#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
