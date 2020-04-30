@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/kiramiller425/tutorial-sass1#readme",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
